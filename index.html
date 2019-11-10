@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multiplication Table</title>
+    <style>
+        .cell {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        .header {
+            background: lightblue;
+        }
+
+        div,
+        h1 {
+            margin-left: 2%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1>Multiplication Table</h1>
+    <br>
+    <div id="multiHolder">
+        <script>
+            // output the header row
+            function multiplicationTables(num) {
+                document.write('<span class="cell header">&times;</span>');
+                for (let i = 0; i < (num + 1); i++) {
+                    document.write('<span class="cell header">' + i + '</span>');
+                }
+                document.write('<br>');
+                for (i = 0; i < (num + 1); i++) {
+                    document.write("<span class = 'cell header'>" + i + "</span>");
+                    for (let j = 0; j < (num + 1); j++) {
+                        document.write("<span class = 'cell'>" + (i * j) + "</span>");
+                    }
+                    document.write("<br>");
+                }
+            }
+            multiplicationTables(10);
+        </script>
+    </div>
+</body>
+
+</html>
