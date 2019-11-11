@@ -18,3 +18,8 @@ body {
     margin-top: 2%;
     display: inline-block;
 }
+
+#buttonSpot,
+#fieldInput {
+    margin-left: 5px;
+}

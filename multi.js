@@ -12,16 +12,4 @@ function multiplicationTables(num) {
         document.write("<br>");
     }
 }
-let tableHolder = document.getElementById("multiHolder");
-tableHolder.innerHTML = multiplicationTables(10);
-let functionButton = document.getElementById("fCButton");
-functionButton.onclick = function () {
-    let functionValue = document.getElementById("functionChangeField").value;
-    let multiDiv = document.getElementById("multiHolder");
-    if (functionValue > 20) {
-        alert("Hey now! Let's not go crazy!");
-    } else {
-        multiDiv.innerHTML = " ";
-        multiDiv.innerHTML = multiplicationTables(functionValue);
-    }
-}
+multiplicationTables(10);
