@@ -14,6 +14,10 @@ body {
     background: lightblue;
 }
 
+#oopsButton {
+    margin-bottom: 2%;
+}
+
 .functionChange {
     margin-top: 2%;
     display: inline-block;
@@ -22,4 +26,98 @@ body {
 #buttonSpot,
 #fieldInput {
     margin-left: 5px;
+}
+
+button {
+    height: 30px;
+}
+
+input {
+    height: 30px;
+}
+
+input[type="text"] {
+    font-size: 15px;
+}
+
+#changeText {
+    font-size: 20px;
+}
+
+#bonusContent {
+    margin-top: 2%;
+}
+
+#colorsButton {
+    margin-top: 2%;
+}
+
+.discoTime {
+    animation: discoball 8s infinite;
+}
+
+@keyframes discoball {
+    0% {
+        background-color: red;
+    }
+    5% {
+        background-color: silver;
+    }
+    10% {
+        background-color: yellow;
+    }
+    15% {
+        background-color: orange;
+    }
+    20% {
+        background-color: purple;
+    }
+    25% {
+        background-color: red;
+    }
+    30% {
+        background-color: silver;
+    }
+    35% {
+        background-color: yellow;
+    }
+    40% {
+        background-color: orange;
+    }
+    45% {
+        background-color: purple;
+    }
+    50% {
+        background-color: red;
+    }
+    55% {
+        background-color: silver;
+    }
+    60% {
+        background-color: yellow;
+    }
+    65% {
+        background-color: orange;
+    }
+    70% {
+        background-color: purple;
+    }
+    75% {
+        background-color: red;
+    }
+    80% {
+        background-color: silver;
+    }
+    85% {
+        background-color: yellow;
+    }
+    90% {
+        background-color: orange;
+    }
+    95% {
+        background-color: purple;
+    }
+    100% {
+        background-color: silver;
+    }
 }

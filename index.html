@@ -6,15 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="multi.css">
     <title>Document</title>
 </head>
 
 <body>
     <h1>Multiplication Table</h1>
-    <br>
+    <button id="oopsButton">OOPS! I messed up! RESET!</button>
+    <div id="tableHolder">
+    </div>
+    <div id="bonusContent">
+        <span id="changeText">What would you like this table to read out to! (Only up to 16 maximum please!)</span>
+        <input type="text" placeholder="Input number here!" name="Numbers" id="numberHolder">
+        <button id="changeButton">Click to Change!</button><br>
+        <button id="colorsButton">Put on the light show!</button>
+        <button id="stopColors">STOP the light show!</button>
+    </div>
 </body>
-<script src = "multi.js"></script>
+<script src="multi.js"></script>
+
 </html>
